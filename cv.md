@@ -3,7 +3,9 @@
 ![Profile](/IMG_20240611_210103_199.jpg)
 
 *email:* nastjabelova0@gmail.com
+
 *linkedin:* nastya-fianit
+
 *discord:* Nastya(@nastya-student)
 
 ## **About:** 
