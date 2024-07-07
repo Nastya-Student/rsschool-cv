@@ -1,6 +1,6 @@
 # **Nastassia Bialova**
 
-![Profile](/IMG_20240611_210103_199.jpg)
+![Profile](/imj/avatar.jpg)
 
 *email:* nastjabelova0@gmail.com
 
