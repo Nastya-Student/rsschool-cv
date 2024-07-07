@@ -1,23 +1,22 @@
 # **Nastassia Bialova**
 
-![Profile](/imj/avatar.jpg)
+![Profile](/assets/img/avatar.jpg)
 
 *email:* nastjabelova0@gmail.com
 
-*linkedin:* nastya-fianit
+*linkedin:* [nastya-fianit](https://www.linkedin.com/in/nastya-fianit)
 
 *discord:* Nastya(@nastya-student)
 
 ## **About:** 
 
-*I continue learning computer science and programming, including frontend development.
-I have extensive work experience in the railway and postal service. Now I am interested in IT and tend to seek a career change in the future. Looking for some ideas for pet-projects.*
+*Self-educated IT-enthusiastic. Aimed to acuire programming experience.*
 
 ## **Skills** [basics]: 
 
-Java (primary language), test automation, Git, Jenkins, Maven, Selenium, Rest Assured, Intellij, PyCharm, Linux, Docker, computer network; familliar with HTML, CSS, JS, Python. 
+Java (primary language), API and UI test automation, Git, Jenkins, Maven, Selenium Webdriver, TestNG, Rest Assured, Cucumber, Intellij, Linux, Docker, SQL, computer networks; familliar with HTML, CSS, JS, Python, Spring framework. 
 
-## **Last solution:**
+## **Code example:**
 
 [codewars task](https://www.codewars.com/kata/5270d0d18625160ada0000e4)
 
@@ -56,15 +55,15 @@ public class Greed{
 ## **Experience:** 
 
 * 2010 - 2021 - Belarussian railway, ensuring train traffic safety;
-* 2023 - EPAM lab intership;
+* 2023 - EPAM lab intership (test automation with Java);
 * 2024 - postal service.
 
 ## **Education:** 
 
 * Belarussian State University of Transport;
 * external training at EPAM "Automated testing with Java".
-* Leverage MJC School and other platforms for self-education.
+* Started learning in MJC School and RS School, leverage other platforms for education.
 
 ## **English:** 
 
-B1. Had practical experience while communicating with an international team in the laboratory.
+B1. Had practical experience while communicating with an international team in the lab and some speaking clubs.
