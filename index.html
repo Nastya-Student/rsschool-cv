@@ -8,36 +8,126 @@
     <link rel="icon" href="assets/svg/favicon.ico" />
 </head>
 <body>
-    <nav>
-
-    </nav>
     <header>
-        <h1>Nastassia Bialova</h1>
-
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#code">Code example</a>
+                </li>
+                <li>
+                    <a href="#projects">Programming experience</a>
+                </li>
+                <li>
+                    <a href="#experience">Work experience</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+                <li>
+                    <a href="#english">English</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section>
-
+            <h1>Nastassia Bialova</h1>
+            <img src="assets/img/avatar.jpg" alt="Avatar">
+            <h2>Contacts:</h2>
+            <ul>
+                <li>email: nastjabelova0@gmail.com</li>
+                <li>linkedin: nastya-fianit</li>
+            </ul>
         </section>
-        <section>
-
+        <section id="about">
+            <h2>About:</h2>
+            <p>Self-educated IT enthusiast. Aimed to aquire programming experience.</p>
         </section>
-        <section>
-            
+        <section id="skills">
+            <h2>Skills:</h2>
+            <ul>
+                <li>Java basics(primary language);</li>
+                <li>UI and API test automation using tools: Git, Maven, Jenkins, Selenium Webdriver, TestNG, Rest Assured, Cucumber;</li>
+                <li>Intellij, Pycharm, VS Code;</li>
+                <li>basics: Linux, Docker, Postman, SQL, computer networks;</li>
+                <li>familiar with HTML, CSS, JS, Python</li>
+            </ul>
         </section>
-        <section>
-            
+        <section id="code">
+            <h2>Code example:</h2>
+            <a href="https://www.codewars.com/kata/5270d0d18625160ada0000e4">codewars task (java)</a>
+            <code>
+                <pre>
+                    public class Greed{
+                        public static int greedy(int[] dice){
+                          int result = 0;
+                          for(int i = 0; i < dice.length; i++){
+                            if(dice[i] == 0){
+                              continue;
+                            }
+                            int count = 1;
+                            for(int j = i + 1; j < dice.length; j++){
+                              if(dice[i] == dice[j]){
+                                count ++;
+                                dice[j] = 0;
+                              }
+                            }
+                            result += countPoints(dice[i], count);
+                          }
+                          return result;
+                        }
+                        private static int countPoints(int number, int count){
+                          int points = (count / 3) * 100 * number;
+                          if(number == 1){
+                            points = points * 10 + (count % 3) * 100;
+                            }
+                          if(number == 5){
+                            points += (count % 3) * 50;
+                          }
+                            return points;
+                        }
+                      }
+                </pre>
+            </code>
         </section>
-        <section>
-            
+        <section id="projects">
+            <h2>Programming experience:</h2>
+            <a href="https://github.com/Nastya-Student/rsschool-cv">rsschool-cv</a>
         </section>
-        <section>
-            
+        <section id="experience">
+            <h2>Work experience:</h2>
+            <ul>
+                <li>2010-2021: Belarussian railway, control room operator;</li>
+                <li>2023: EPAM lab intership (test automation with java);</li>
+                <li>2024: Postal service.</li>
+            </ul>
+        </section>
+        <section id="education">
+            <h2>Education:</h2>
+            <ul>
+                <li>Belarussian State University of Transport;</li>
+                <li>external training at EPAM "Automated testing with Java";</li>
+                <li>started learning in MJC School and RS School, leverage other platforms for education.</li>
+            </ul>
+        </section>
+        <section id="english">
+            <h2>English:</h2>
+            <p>B1. Have practical experience while communicating with an international team in the EPAM lab and some speaking clubs.</p>
         </section>
 
     </main>
     <footer>
-
+        <a href="https://github.com/Nastya-Student/rsschool-cv">GitHub</a>
+        <p>2024</p>
+        <a href="https://rs.school/courses/javascript-ru">
+            <img src="assets/svg/rs-school-logo.svg" style="width: 45px; height: 45px;">
+        </a>
     </footer>
 
 </body>
