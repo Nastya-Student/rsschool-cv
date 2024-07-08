@@ -15,6 +15,10 @@
     font-size: 20px;
     width: 1000px;
   }
+  .container{
+    background-color: azure;
+    padding: 50px;
+  }
   
   .main-section-container{
     width: 100%;
@@ -42,16 +46,13 @@
     line-height: 50px;
   }
 
-  .code{
-    display:flex;
-    align-content: center;
-    font-size: small;
-    margin:20px 200px;
-    background-color:antiquewhite;
-  }
   .code-text{
+    background-color:antiquewhite;
+    align-content: center;
     display: flex;
-    width: 80%;
+    font-size: small;
+    width: 70%;
+    margin: 0 50px;
   }
   .footer{
     display: flex;
@@ -66,8 +67,8 @@
    }
   
   .inner-section{
-    width: 30%;
-    margin: 50px;
+    width: 40%;
+    margin: 40px;
   }
  
   .section-title-h1{
