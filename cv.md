@@ -2,19 +2,19 @@
 
 ![Profile](/assets/img/avatar.jpg)
 
-*email:* nastjabelova0@gmail.com
+_email:_ nastjabelova0@gmail.com
 
-*linkedin:* [nastya-fianit](https://www.linkedin.com/in/nastya-fianit)
+_linkedin:_ [nastya-fianit](https://www.linkedin.com/in/nastya-fianit)
 
-*discord:* Nastya(@nastya-student)
+_discord:_ Nastya(@nastya-student)
 
-## **About:** 
+## **About:**
 
-*Self-educated IT-enthusiastic. Aimed to acuire programming experience.*
+_Self-educated IT-enthusiastic. Aimed to acuire programming experience._
 
-## **Skills** [basics]: 
+## **Skills** [basics]:
 
-Java (primary language), API and UI test automation, Git, Jenkins, Maven, Selenium Webdriver, TestNG, Rest Assured, Cucumber, Intellij, Linux, Docker, SQL, computer networks; familliar with HTML, CSS, JS, Python, Spring framework. 
+Java (primary language), API and UI test automation, Git, Jenkins, Maven, Selenium Webdriver, TestNG, Rest Assured, Cucumber, Intellij, Linux, Docker, SQL, computer networks; familliar with HTML, CSS, JS, Python, Spring framework.
 
 ## **Code example:**
 
@@ -52,18 +52,18 @@ public class Greed{
 }
 ```
 
-## **Experience:** 
+## **Experience:**
 
-* 2010 - 2021 - Belarussian railway, ensuring train traffic safety;
-* 2023 - EPAM lab intership (test automation with Java);
-* 2024 - postal service.
+- 2010 - 2021 - Belarussian railway, ensuring train traffic safety;
+- 2023 - EPAM lab intership (test automation with Java);
+- 2024 - postal service.
 
-## **Education:** 
+## **Education:**
 
-* Belarussian State University of Transport;
-* external training at EPAM "Automated testing with Java".
-* Started learning in MJC School and RS School, leverage other platforms for education.
+- Belarussian State University of Transport;
+- external training at EPAM "Automated testing with Java".
+- Started learning in MJC School and RS School, leverage other platforms for education.
 
-## **English:** 
+## **English:**
 
 B1. Had practical experience while communicating with an international team in the lab and some speaking clubs.
