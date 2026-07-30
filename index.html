@@ -1,16 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>cv</title>
-    <link rel="stylesheet" href="css/style.css" >
-    <link rel="icon" href="assets/svg/favicon.ico" >
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="assets/svg/favicon.ico" />
   </head>
 
   <body>
-    <header class="header">
-      <div class="container">
+    <div class="container flex-column-2">
+      <header class="header container-item">
         <nav class="nav">
           <ul class="nav-list">
             <li class="nav-item">
@@ -36,37 +36,41 @@
             </li>
           </ul>
         </nav>
-      </div>
-    </header>
-    <main class="main">
-      <div class="container">
+      </header>
+      <main class="main container-item flex-column-2">
         <section class="main-section-container">
           <div class="inner-section">
-            <img
-              class="avatar"
-              src="assets/img/avatar.jpg"
-              alt="Avatar"
-            >
+            <img class="avatar" src="assets/img/avatar.jpg" alt="Avatar" />
           </div>
-          <div class="inner-section">
-            <h1 class="section-title-h1">Nastassia Bialova</h1>
-            <h2 class="section-title">Contacts:</h2>
-            <ul>
-              <li>email: nastjabelova0@gmail.com</li>
-              <li>linkedin: nastya-fianit</li>
-              <li>discord: Nastya(@nastya-student)</li>
-            </ul>
+          <div class="inner-section contacts flex-column-3">
+            <div class="title flex-column-1">
+              <h1 class="section-title-h1">Nastassia Bialova</h1>
+              <div class="title-description"><em>frontend developer</em></div>
+            </div>
+            <div class="flex-column-1">
+              <h2 class="section-title">Contacts:</h2>
+              <ul class="contacts-list flex-column-05">
+                <li>telegram: @nastya_fianit</li>
+                <li>
+                  linkedin:
+                  <a href="https://www.linkedin.com/in/nastya-fianit/"
+                    >nastya-fianit</a
+                  >
+                </li>
+                <li>discord: Nastya(@nastya-student)</li>
+              </ul>
+            </div>
           </div>
         </section>
-        <section id="about">
+        <section id="about" class="flex-column-1">
           <h2 class="section-title">About:</h2>
           <p>
             Self-educated IT enthusiast. Aimed to aquire programming experience.
           </p>
         </section>
-        <section id="skills">
+        <section id="skills" class="flex-column-1">
           <h2 class="section-title">Skills:</h2>
-          <ul>
+          <ul class="flex-column-05">
             <li>Java basics(primary language);</li>
             <li>
               UI and API test automation using tools: Git, Maven, Jenkins,
@@ -77,12 +81,14 @@
             <li>familiar with HTML, CSS, JS, Python</li>
           </ul>
         </section>
-        <section id="code">
+        <section id="code" class="flex-column-1">
           <h2 class="section-title">Code example:</h2>
           <a href="https://www.codewars.com/kata/5270d0d18625160ada0000e4"
             >codewars task (java)</a
           >
-          <pre class="code">
+          <details>
+            <summary>open code</summary>
+            <pre class="code">
                 <code class="code-text">
                     public class Greed{
                         public static int greedy(int[] dice){
@@ -115,24 +121,25 @@
                       }
                     </code>
                 </pre>
+          </details>
         </section>
-        <section id="projects">
+        <section id="projects" class="flex-column-1">
           <h2 class="section-title">Programming experience:</h2>
           <a href="https://github.com/Nastya-Student/rsschool-cv"
             >rsschool-cv</a
           >
         </section>
-        <section id="experience">
+        <section id="experience" class="flex-column-1">
           <h2 class="section-title">Work experience:</h2>
-          <ul>
+          <ul class="flex-column-05">
             <li>2010-2021: Belarussian railway, control room operator;</li>
             <li>2023: EPAM lab intership (test automation with java);</li>
             <li>2024-now: Postal service.</li>
           </ul>
         </section>
-        <section id="education">
+        <section id="education" class="flex-column-1">
           <h2 class="section-title">Education:</h2>
-          <ul>
+          <ul class="flex-column-05">
             <li>Belarusian State University of Transport;</li>
             <li>external training at EPAM "Automated testing with Java";</li>
             <li>
@@ -141,28 +148,33 @@
             </li>
           </ul>
         </section>
-        <section id="english">
+        <section id="english" class="flex-column-1">
           <h2 class="section-title">English:</h2>
           <p>
             B1. Have practical experience while communicating with an
             international team in the EPAM lab and some speaking clubs.
           </p>
         </section>
-      </div>
-    </main>
-    <footer class="footer">
-      <a
-        class="footer-item"
-        href="https://github.com/Nastya-Student/rsschool-cv"
-        >GitHub</a
-      >
-      <p class="footer-item">2025</p>
-      <a class="footer-item" href="https://rs.school/courses/javascript-ru">
-        <img class="footer-logo"
-          src="assets/svg/rs-school-logo.svg"
-          alt="Logo"
+      </main>
+      <footer class="footer container-item">
+        <a
+          class="footer-item"
+          href="https://github.com/Nastya-Student/rsschool-cv"
         >
-      </a>
-    </footer>
+          <img
+            class="footer-github"
+            src="assets/svg/github-logo-6532.svg"
+            alt="github link"
+        /></a>
+        <p class="footer-item">2025</p>
+        <a class="footer-item" href="https://rs.school/courses/javascript">
+          <img
+            class="footer-logo"
+            src="assets/svg/rs-school-logo.svg"
+            alt="Logo"
+          />
+        </a>
+      </footer>
+    </div>
   </body>
 </html>
