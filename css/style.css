@@ -33,9 +33,12 @@ body {
 a {
   text-decoration: none;
   color: var(--color-foreground);
+  padding: 0.75rem 1rem;
   transition: all 0.3s ease;
+  width: fit-content;
   &:hover {
     color: var(--color-hover);
+    box-shadow: var(--box-shadow);
   }
 }
 
@@ -78,7 +81,7 @@ h1 {
   padding: 1rem 4rem;
   margin: auto;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1300px;
   min-width: 380px;
   background-color: var(--color-primary);
 }
@@ -90,8 +93,7 @@ h1 {
 
 .header {
   width: 110%;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding: 1.5rem 3rem;
   position: sticky;
   top: 0;
   z-index: 5;
@@ -109,7 +111,6 @@ h1 {
 }
 
 .nav-item {
-  padding: 0.5rem 1rem;
   font-size: larger;
 }
 
