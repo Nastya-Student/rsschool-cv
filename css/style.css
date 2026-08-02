@@ -158,6 +158,11 @@ h2 {
   text-align: justify;
 }
 
+.skills-text {
+  display: flex;
+  justify-content: space-between;
+}
+
 .code-text {
   background-color: var(--color-code);
   align-content: center;
