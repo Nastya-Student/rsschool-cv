@@ -15,6 +15,8 @@
   --color-code: rgb(163, 185, 206);
 
   --box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.3);
+  --box-shadow-light: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.05);
+  --box-shadow-bottom: 0 0.3rem 0.3rem -2px rgba(0, 0, 0, 0.05);
 }
 
 * {
@@ -36,6 +38,7 @@ a {
   padding: 0.75rem 1rem;
   transition: all 0.3s ease;
   width: fit-content;
+  box-shadow: var(--box-shadow-light);
   &:hover {
     color: var(--color-hover);
     box-shadow: var(--box-shadow);
@@ -49,6 +52,11 @@ ul {
 h1 {
   font-size: 3rem;
   margin-top: 0;
+}
+
+h2 {
+  padding-bottom: 0.5rem;
+  box-shadow: var(--box-shadow-bottom);
 }
 
 .flex-column-05 {
@@ -78,7 +86,7 @@ h1 {
 .container {
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 4rem;
+  padding: 1rem 7rem;
   margin: auto;
   width: 100%;
   max-width: 1300px;
@@ -93,7 +101,7 @@ h1 {
 
 .header {
   width: 110%;
-  padding: 1.5rem 3rem;
+  padding: 1.5rem 3rem 2rem 3rem;
   position: sticky;
   top: 0;
   z-index: 5;
@@ -144,6 +152,10 @@ h1 {
 .title-description {
   text-align: center;
   font-size: larger;
+}
+
+.about-text {
+  text-align: justify;
 }
 
 .code-text {
