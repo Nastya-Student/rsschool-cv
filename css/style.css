@@ -54,6 +54,10 @@ ul {
   list-style: none;
 }
 
+.styled-list {
+  list-style-type: disc;
+}
+
 h1 {
   font-size: 2rem;
   margin-top: 0;
