@@ -13,41 +13,41 @@
       <header class="header container-item">
         <nav class="nav">
           <ul class="nav-list">
-            <li class="nav-item">
+            <li class="nav-item link-wrapper">
               <a class="nav-link" href="#about">About</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item link-wrapper">
               <a class="nav-link" href="#skills">Skills</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item link-wrapper">
               <a class="nav-link" href="#code">Code example</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item link-wrapper">
               <a class="nav-link" href="#projects">Programming experience</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item link-wrapper">
               <a class="nav-link" href="#experience">Work experience</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item link-wrapper">
               <a class="nav-link" href="#education">Education</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item link-wrapper">
               <a class="nav-link" href="#english">English</a>
             </li>
           </ul>
         </nav>
       </header>
-      <main class="main container-item flex-column-3">
+      <main class="main container-item flex-column-5">
         <section class="main-section-container">
           <div class="inner-section">
             <img class="avatar" src="assets/img/avatar.jpg" alt="Avatar" />
           </div>
-          <div class="inner-section contacts flex-column-3">
+          <div class="inner-section contacts">
             <div class="title flex-column-1">
               <h1 class="section-title-h1">Nastassia Bialova</h1>
               <div class="title-description"><em>frontend developer</em></div>
             </div>
-            <div class="flex-column-2">
+            <div class="flex-column-3">
               <h2 class="section-title">Contacts:</h2>
               <ul class="contacts-list flex-column-05">
                 <li>telegram: @nastya_fianit</li>
@@ -62,7 +62,7 @@
             </div>
           </div>
         </section>
-        <section id="about" class="flex-column-2">
+        <section id="about" class="flex-column-3">
           <h2 class="section-title">About:</h2>
           <div class="flex-column-1 about-text">
             <p>I am a human.</p>
@@ -73,11 +73,11 @@
               Currently, I am captivated by applications like Obsidian and
               Notion, which inspired me to develop my own hybrid alternative as
               a pet project.<br />
-              Occasionally, I track tech inventions to anticipate the future,
-              which originally sparked my interest in this kind of knowledge
-              management tools.<br />
+              Occasionally, I track tech inventions to anticipate the future and
+              related issues, which originally sparked my interest in this kind
+              of knowledge management tools.<br />
               I prefer to kick off development with thorough planning. That is
-              why for this project, I started by drafting the application
+              why for this project, I have started by drafting the application
               architecture and technical specifications.
             </p>
             <p>
@@ -85,8 +85,7 @@
               the constant lack of time.<br />
               My goal is to transition into a professional programming role,
               shifting from my current field to full-time engagement with IT
-              systems and code — specifically development, refactoring, and
-              debugging.
+              systems and code — development, refactoring, and debugging.
             </p>
             <p>
               My diverse background in other industries has fostered core
@@ -96,27 +95,34 @@
             </p>
           </div>
         </section>
-        <section id="skills" class="flex-column-2">
+        <section id="skills" class="flex-column-3">
           <h2 class="section-title">Skills:</h2>
           <div class="skills-text">
             <div>JavaScript</div>
             <div>TypeScript</div>
+            <div>Vite</div>
             <div>React</div>
             <div>Redux</div>
             <div>NextJS</div>
             <div>Supabase</div>
             <div>Vercel</div>
             <div>UX/UI</div>
+            <div>Figma</div>
+            <div>Tailwind</div>
           </div>
         </section>
-        <section id="code" class="flex-column-2">
+        <section id="code" class="flex-column-3">
           <h2 class="section-title">Code example:</h2>
-          <a href="https://www.codewars.com/kata/5270d0d18625160ada0000e4"
-            >codewars task (java)</a
-          >
-          <details>
-            <summary>open code</summary>
-            <pre class="code">
+          <div class="flex-column-1">
+            <div class="link-wrapper">
+              <a href="https://www.codewars.com/kata/5270d0d18625160ada0000e4"
+                >codewars task (java)</a
+              >
+            </div>
+
+            <details>
+              <summary>open code</summary>
+              <pre class="code">
                 <code class="code-text">
                     public class Greed{
                         public static int greedy(int[] dice){
@@ -149,15 +155,272 @@
                       }
                     </code>
                 </pre>
-          </details>
+            </details>
+          </div>
         </section>
-        <section id="projects" class="flex-column-2">
+        <section id="projects" class="flex-column-3">
           <h2 class="section-title">Programming experience:</h2>
-          <a href="https://github.com/Nastya-Student/rsschool-cv"
-            >rsschool-cv</a
-          >
+          <div class="project-cards">
+            <div class="project-card flex-column-1">
+              <h3>Calendar</h3>
+              <table class="project-card-table">
+                <tr>
+                  <th scope="row">Category:</th>
+                  <td>course project</td>
+                </tr>
+                <tr>
+                  <th scope="row">Year:</th>
+                  <td>2025</td>
+                </tr>
+                <tr>
+                  <th scope="row">Tools:</th>
+                  <td>JS, Tailwind, Vite</td>
+                </tr>
+              </table>
+              <div>
+                <div class="project-card-description-title">
+                  <b>Description: </b>
+                </div>
+                <div class="project-card-description-text">
+                  <p>My first js app.</p>
+                  <p>
+                    You may flip throw the calendar, add and delete notes. Your
+                    notes are storing in browser local storage.
+                  </p>
+                </div>
+              </div>
+              <div class="card-links">
+                <div class="link-wrapper">
+                  <a href="https://github.com/Nastya-Student/calendar-epic"
+                    ><b><b>Github</b></b></a
+                  >
+                </div>
+                <div class="link-wrapper">
+                  <a href="https://nastya-student.github.io/calendar-epic/"
+                    ><b>Deploy</b></a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="project-card flex-column-1">
+              <h3>Async Race</h3>
+              <table class="project-card-table">
+                <tr>
+                  <th scope="row">Category:</th>
+                  <td>course project</td>
+                </tr>
+                <tr>
+                  <th scope="row">Year:</th>
+                  <td>2026</td>
+                </tr>
+                <tr>
+                  <th scope="row">Tools:</th>
+                  <td>TypeScript, Vite</td>
+                </tr>
+              </table>
+              <div>
+                <div class="project-card-description-title">
+                  <b>Description: </b>
+                </div>
+                <div class="project-card-description-text">
+                  <p>SPA.</p>
+                  <p>Simple race emulation with animation.</p>
+                  <p>
+                    You may add and delete your cars with name and color, run
+                    the race, and watch winners with details.
+                  </p>
+                  <p>
+                    You should install and run this
+                    <a href="https://github.com/mikhama/async-race-api"
+                      >mock server</a
+                    >
+                    with this app.
+                  </p>
+                </div>
+              </div>
+              <div class="card-links">
+                <div class="link-wrapper">
+                  <a href=""><b>Github</b></a>
+                </div>
+                <div class="link-wrapper">
+                  <a href=""><b>Deploy</b></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card flex-column-1">
+              <h3>Fun Chat</h3>
+              <table class="project-card-table">
+                <tr>
+                  <th scope="row">Category:</th>
+                  <td>course project</td>
+                </tr>
+                <tr>
+                  <th scope="row">Year:</th>
+                  <td>2026</td>
+                </tr>
+                <tr>
+                  <th scope="row">Tools:</th>
+                  <td>TypeScript, WebSocket</td>
+                </tr>
+              </table>
+              <div>
+                <div class="project-card-description-title">
+                  <b>Description: </b>
+                </div>
+                <div class="project-card-description-text">
+                  <p>Websocket client application.</p>
+                  <p>
+                    You should install and launch
+                    <a
+                      href="https://github.com/rolling-scopes-school/fun-chat-server/tree/main"
+                      >this server</a
+                    >
+                    with this app.
+                  </p>
+                </div>
+              </div>
+              <div class="card-links">
+                <div class="link-wrapper">
+                  <a href=""><b>Github</b></a>
+                </div>
+                <div class="link-wrapper">
+                  <a href=""><b>Deploy</b></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card flex-column-1">
+              <h3>Star Trek</h3>
+              <table class="project-card-table">
+                <tr>
+                  <th scope="row">Category:</th>
+                  <td>course project</td>
+                </tr>
+                <tr>
+                  <th scope="row">Year:</th>
+                  <td>2026</td>
+                </tr>
+                <tr>
+                  <th scope="row">Tools:</th>
+                  <td>React, Redux, Typescript, Vite, React Context Api</td>
+                </tr>
+              </table>
+              <div>
+                <div class="project-card-description-title">
+                  <b>Description: </b>
+                </div>
+                <div class="project-card-description-text">
+                  <p>
+                    Client app to represent star trek data from
+                    <a href="https://stapi.co/">stapi.co.</a>
+                  </p>
+                  <p>You may search, select and download any data you need.</p>
+                </div>
+              </div>
+              <div class="card-links">
+                <div class="link-wrapper">
+                  <a
+                    href="https://github.com/Nastya-Student/rss-react/tree/app-state-management"
+                    ><b>Github</b></a
+                  >
+                </div>
+                <div class="link-wrapper">
+                  <a href="https://rs-react-app-black.vercel.app/"
+                    ><b>Deploy</b></a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="project-card flex-column-1">
+              <h3>Tandem</h3>
+              <table class="project-card-table">
+                <tr>
+                  <th scope="row">Category:</th>
+                  <td>course project, team work</td>
+                </tr>
+                <tr>
+                  <th scope="row">Year:</th>
+                  <td>2026</td>
+                </tr>
+                <tr>
+                  <th scope="row">Tools:</th>
+                  <td>TypeScript, ChartJS, Vercel, Vite, Vitest</td>
+                </tr>
+              </table>
+              <div>
+                <div class="project-card-description-title">
+                  <b>Description: </b>
+                </div>
+                <div class="project-card-description-text">
+                  <p>SPA for interview preparation.</p>
+                  <p>My area of responsibility:</p>
+                  <ul>
+                    <li>- Profile page,</li>
+                    <li>- scores calculation and display on the chart,</li>
+                    <li>- Results page,</li>
+                    <li>- autodeploy on Vercel, github branches protection.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-links">
+                <div class="link-wrapper">
+                  <a href=""><b>Github</b></a>
+                </div>
+                <div class="link-wrapper">
+                  <a href=""><b>Deploy</b></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card flex-column-1">
+              <h3>Swagger editor</h3>
+              <table class="project-card-table">
+                <tr>
+                  <th scope="row">Category:</th>
+                  <td>course project, team work</td>
+                </tr>
+                <tr>
+                  <th scope="row">Year:</th>
+                  <td>2026</td>
+                </tr>
+                <tr>
+                  <th scope="row">Tools:</th>
+                  <td>React, TypeScript, Next.js, Supabase, Vercel</td>
+                </tr>
+              </table>
+              <div>
+                <div class="project-card-description-title">
+                  <b>Description: </b>
+                </div>
+                <div class="project-card-description-text">
+                  <p>Simple swagger clone.</p>
+                  <p>My area of responsibility:</p>
+                  <ul>
+                    <li>- authentication with Supabase and Zod validation,</li>
+                    <li>- Signin and Signup pages,</li>
+                    <li>- header with navigation,</li>
+                    <li>- routing with pages protection,</li>
+                    <li>- data tables in Supabase and their security,</li>
+                    <li>
+                      - History page displaying user requests with details.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-links">
+                <div class="link-wrapper">
+                  <a href="https://github.com/vsv-noon/swagger-editor-app"
+                    ><b>Github</b></a
+                  >
+                </div>
+                <div class="link-wrapper">
+                  <a href="https://swagger-editor-app-wine.vercel.app/"
+                    ><b>Deploy</b></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
-        <section id="experience" class="flex-column-2">
+        <section id="experience" class="flex-column-3">
           <h2 class="section-title">Work experience:</h2>
           <ul class="flex-column-05">
             <li>2010-2021: Belarussian railway, control room operator;</li>
@@ -165,7 +428,7 @@
             <li>2024-now: Postal service.</li>
           </ul>
         </section>
-        <section id="education" class="flex-column-2">
+        <section id="education" class="flex-column-3">
           <h2 class="section-title">Education:</h2>
           <ul class="flex-column-05">
             <li>Belarusian State University of Transport;</li>
@@ -176,7 +439,7 @@
             </li>
           </ul>
         </section>
-        <section id="english" class="flex-column-2">
+        <section id="english" class="flex-column-3">
           <h2 class="section-title">English:</h2>
           <p>
             B1. Have practical experience while communicating with an
@@ -185,23 +448,28 @@
         </section>
       </main>
       <footer class="footer container-item">
-        <a
-          class="footer-item"
-          href="https://github.com/Nastya-Student/rsschool-cv"
-        >
-          <img
-            class="footer-github"
-            src="assets/svg/github-logo-6532.svg"
-            alt="github link"
-        /></a>
+        <div class="link-wrapper">
+          <a
+            class="footer-item"
+            href="https://github.com/Nastya-Student/rsschool-cv"
+          >
+            <img
+              class="footer-github"
+              src="assets/svg/github-logo-6532.svg"
+              alt="github link"
+          /></a>
+        </div>
+
         <p class="footer-item">2025</p>
-        <a class="footer-item" href="https://rs.school/courses/javascript">
-          <img
-            class="footer-logo"
-            src="assets/svg/rs-school-logo.svg"
-            alt="Logo"
-          />
-        </a>
+        <div class="link-wrapper">
+          <a class="footer-item" href="https://rs.school/courses/javascript">
+            <img
+              class="footer-logo"
+              src="assets/svg/rs-school-logo.svg"
+              alt="Logo"
+            />
+          </a>
+        </div>
       </footer>
     </div>
   </body>

@@ -27,7 +27,7 @@
 
 body {
   font-family: "OpenSans-Regular";
-  font-size: large;
+  font-size: medium;
   color: var(--color-foreground);
   background-color: var(--color-background);
 }
@@ -35,12 +35,17 @@ body {
 a {
   text-decoration: none;
   color: var(--color-foreground);
+}
+
+.link-wrapper {
   padding: 0.75rem 1rem;
   transition: all 0.3s ease;
   width: fit-content;
   box-shadow: var(--box-shadow-light);
   &:hover {
-    color: var(--color-hover);
+    a {
+      color: var(--color-hover);
+    }
     box-shadow: var(--box-shadow);
   }
 }
@@ -50,13 +55,28 @@ ul {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-top: 0;
 }
 
 h2 {
-  padding-bottom: 0.5rem;
+  padding-bottom: 1rem;
   box-shadow: var(--box-shadow-bottom);
+}
+
+h3 {
+  padding-bottom: 1.5rem;
+}
+
+th {
+  padding-right: 1rem;
+  text-align: left;
+}
+
+th,
+td {
+  padding-bottom: 0.5rem;
+  vertical-align: top;
 }
 
 .flex-column-05 {
@@ -83,13 +103,19 @@ h2 {
   gap: 3rem;
 }
 
+.flex-column-5 {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
 .container {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 7rem;
   margin: auto;
   width: 100%;
-  max-width: 1300px;
+  max-width: 1100px;
   min-width: 380px;
   background-color: var(--color-primary);
 }
@@ -113,13 +139,12 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
   list-style: none;
   text-decoration: none;
 }
 
 .nav-item {
-  font-size: larger;
+  font-size: medium;
 }
 
 .main {
@@ -146,11 +171,12 @@ h2 {
 }
 
 .contacts {
-  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .title-description {
-  text-align: center;
   font-size: larger;
 }
 
@@ -159,6 +185,7 @@ h2 {
 }
 
 .skills-text {
+  font-size: larger;
   display: flex;
   justify-content: space-between;
 }
@@ -171,6 +198,35 @@ h2 {
   width: 70%;
   margin: 0 50px;
 }
+
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.project-card {
+  width: 17rem;
+  box-shadow: var(--box-shadow-light);
+  padding: 1.5rem;
+}
+
+.card-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.project-card-description-title {
+  padding-bottom: 0.5rem;
+}
+
+.project-card-description-text {
+  text-align: justify;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
